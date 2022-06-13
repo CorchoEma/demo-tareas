@@ -1,0 +1,28 @@
+.titulo-h1{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+.contenedor{
+    text-align: center;
+}
+.btn-blue{
+    background-color: #008CBA;
+    color: white;
+    border: 1.5px solid #008CBA;
+    padding: 15px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn-blue:hover{
+    background-color: #008bba50;
+    border: 1.5px solid #008bba50;
+
+}
+
+.input-tarea{
+    padding: 15px;
+    border: 1.5px solid rgba(0, 0, 0, 0.116);
+}
+
