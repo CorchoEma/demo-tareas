@@ -1,4 +1,4 @@
-<!--Caracteres del teclado{}, [], @, &, # -->
+<!--Caracteres del teclado {}, [], @, &, #, ``,  -->
 <html>
     <head>
         <title>Aps tareas</title>
@@ -7,18 +7,13 @@
     <body>
         <div class="contenedor">
             <h1 class="titulo-h1">APP TAREAS</h1>
-            <form action="">
+            <form>
                 <input type="text" class="input-tarea" placeholder="ingrese una tarea" id="input-tarea">
                 <button class="btn-blue" type="button" onclick="guardarTarea()" id="btn-guardar">Guardar</button>
-            
             </form>
-            <ul id="Listado-tareas">
-
+            <ul id="Listado-tareas" class="listado">
             </ul>
-           
-
         </div>
-        
         <script src="assets/js/main.js"></script>
     </body>
 </html>
