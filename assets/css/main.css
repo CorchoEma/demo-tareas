@@ -3,6 +3,7 @@
     font-family: 'Courier New', Courier, monospace;
     color: black;
 }
+
 .contenedor{
     text-align: center;
     width: 60%;
@@ -18,11 +19,13 @@
     cursor: pointer;
     margin-top: 10px;
 }
+
 .btn-blue:hover{
     background-color: #008bba50;
     border: 1.5px solid #008bba50;
 
 }
+
 .input-tarea{
     width: 100%;
     text-align: center;
@@ -30,8 +33,8 @@
     padding: 15px;
     border: 1.5px solid rgba(0, 0, 0, 0.116);
 }
+
 .listado{
     list-style: none;
     padding: 20px;
 }
-
