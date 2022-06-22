@@ -1,18 +1,20 @@
-<!--Caracteres del teclado {}, [], @, &, #, ``,  -->
+<!--Caracteres del teclado {}, [], @, &, #, ``, $   -->
+
 <html>
     <head>
         <title>Aps tareas</title>
         <link rel="stylesheet" href="assets/css/main.css">
+        
     </head>
     
     <body>
-        <div class="contenedor">
+        <div class="contendor">
             <h1 class="titulo-h1">APP TAREAS</h1>
-            <form>
+            <form id="formulario-tareas">
                 <input type="text" class="input-tarea" placeholder="ingrese una tarea" id="input-tarea">
-                <button class="btn-blue" type="button" onclick="guardarTarea()" id="btn-guardar">Guardar</button>
+                <button class="btn-blue" type="submit"  id="btn-guardar">Guardar</button>
             </form>
-            <ul id="Listado-tareas" class="listado">
+            <ul id="listado-tareas" class="listado">
             </ul>
         </div>
         <script src="assets/js/main.js"></script>
