@@ -38,3 +38,9 @@
     list-style: none;
     padding: 20px;
 }
+.contador-color-rojo{
+    color: red;
+}
+.contador-color-verde{
+    color: green;
+}
